@@ -11,4 +11,7 @@ Given an integer , return true if it's palindrome and false otherwise. A palindr
 You are given m*n matrix with the following properties:
 1. Each row is sorted in non descending order
 2. The first integer of each row is greater than last integer of previous row
-Given an integer , return true if it's present in the matrix otherwise return false      
+Given an integer , return true if it's present in the matrix otherwise return false
+
+#PS 4
+You are given an array say a[], where a[i] is the price of a stock on the i-th day. You want to maximize your profit by choosing a single day to buy one stock annd a different day in the future to sell that stock. Return the maximum profit you can achieve any profit , return 0.

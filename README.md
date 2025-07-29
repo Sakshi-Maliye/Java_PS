@@ -15,3 +15,6 @@ Given an integer , return true if it's present in the matrix otherwise return fa
 
 #PS 4
 You are given an array say a[], where a[i] is the price of a stock on the i-th day. You want to maximize your profit by choosing a single day to buy one stock annd a different day in the future to sell that stock. Return the maximum profit you can achieve any profit , return 0.
+
+#PS 5
+You are given two arrays , main array and a subset of this array. You have to print the greater number next to it

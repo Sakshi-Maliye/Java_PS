@@ -21,3 +21,6 @@ You are given two arrays , main array and a subset of this array. You have to pr
 
 #PS 6
 Monkey Problem
+
+#PS 7
+Guessing game

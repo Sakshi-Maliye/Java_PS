@@ -24,3 +24,6 @@ Monkey Problem
 
 #PS 7
 Guessing game
+
+#PS 8
+Pattern printing

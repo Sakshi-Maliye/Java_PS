@@ -18,3 +18,6 @@ You are given an array say a[], where a[i] is the price of a stock on the i-th d
 
 #PS 5
 You are given two arrays , main array and a subset of this array. You have to print the greater number next to it
+
+#PS 6
+Monkey Problem

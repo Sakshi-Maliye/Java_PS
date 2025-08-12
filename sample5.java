@@ -14,6 +14,8 @@ class sample5
 	int flag=0;
         while(l<h)
         {
+		if(flag==1)
+			break;
             int m=(l+h)/2;
             System.out.println(m);
             System.out.println("My guess is 1.Lower\n2.Higher\n3.You got it right!\n");
@@ -22,20 +24,20 @@ class sample5
             switch(ch)
             {
                 case 1:
-                    l=l+m;
+                    l=m+1;
                     break;
                 case 2:
-                    h=h-m;
+                    h=m-1;
                     break;
                 case 3:
                     System.out.println("In tries="+tries);
-			flag=1;
-                   break;
+					flag=1;
+                   	break;
                 default:
                 System.out.println("no");
             }
-		if(flag==1)
-			break;
+
+		
         }
         
         

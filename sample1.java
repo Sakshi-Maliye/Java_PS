@@ -1,5 +1,5 @@
 import java.util.*;
-class sample1
+class sample
 {
     public static void main(String[] args)
     {
@@ -11,11 +11,14 @@ class sample1
         System.out.println("Enter y:");
         int y=s.nextInt();
         int c=0,p=0;
-        while(p<h)
+        while(true)
         {
             p=p+x;
             c++;
+            if(p>=h)
+                break;
             p=p-y;
+            
         }
         System.out.println("days="+c);
     }
